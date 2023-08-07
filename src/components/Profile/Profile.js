@@ -7,7 +7,6 @@ import {
   ItemStats,
   Avatar,
 } from './Profile.style';
-import user from '../../user.json';
 
 export const Profile = props => {
   const { avatar, location, tag, username, stats } = props;
